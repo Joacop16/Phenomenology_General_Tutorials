@@ -1,0 +1,30 @@
+Tutorial 0: Creación de un Docker
+
+Autor: Joaquín Peñuela Parra.
+
+En este tutorial escribiré los pasos necesarios para establecer la conexión al docker. Para esto tomaré como ejemplo mi docker Jupyroot_JP con el puerto 4950.
+
+1. Ingresar al docker usando nuestro puerto de entrada (el mio es 4950):
+
+   ssh -Y j.penuela@hep-server2.uniandes.edu.co -NL 4950:localhost:4950
+
+   Nota: Claramente cada persona usará el puerto que le corresponda.
+
+   Luego de ingresar contraseña la terminal se quedará así:
+
+   (root_lab) joaco@DESKTOP-20PE4DD:~$ ssh -Y j.penuela@hep-server2.uniandes.edu.co -NL 4950:localhost:4950
+   j.penuela@hep-server2.uniandes.edu.co's password:
+
+2. Minimizamos la terminal y abrimos cualquier navegador (yo uso microsoft edge).
+
+3. Ingresamos la url: http://localhost:4950/
+
+   Ese será el jupyterlab de nuestro Docker donde siempre trabajamos. Ahí nos pedirá una contraseña, es la que se definió cuando se creo el Docker (ver Tutorial 0).
+
+En este punto podemos hacer uso del Docker.
+
+Nota: Es importante tener en cuenta lo siguiente:
+
+Si el Docker colapsa o falla es necesario reiniciarlo. Para esto desde el servidor hay que escribir lo siguiente: docker restart jupyroot_AFlorez
+
+Así el Docker se reinicia, al hacerlo podemos repetir los pasos pero debemos tener en cuenta que siempre debe haber una terminal abierta con htop (esto se explicó en el Tutorial 0).
