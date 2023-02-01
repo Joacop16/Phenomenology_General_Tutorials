@@ -21,7 +21,7 @@ En este tutorial escribiré los pasos necesarios para establecer la conexión al
 
    Ese será el jupyterlab de nuestro Docker donde siempre trabajamos. Ahí nos pedirá una contraseña, es la que se definió cuando se creo el Docker (ver Tutorial 0).
 
-En este punto podemos hacer uso del Docker.
+4. Ya podemos hacer uso del Docker, por esto los siguientes tutoriales serán escritos en formato .ipynb que podemos abrir desde el Docker.
 
 Nota: Es importante tener en cuenta lo siguiente:
 
