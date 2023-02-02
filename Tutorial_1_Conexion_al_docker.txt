@@ -6,22 +6,28 @@ En este tutorial escribiré los pasos necesarios para establecer la conexión al
 
 1. Ingresar al docker usando nuestro puerto de entrada (el mio es 4950):
 
-   ssh -Y j.penuela@hep-server2.uniandes.edu.co -NL 4950:localhost:4950
+ssh -Y j.penuela@hep-server2.uniandes.edu.co -NL 4950:localhost:4950
 
-   Nota: Claramente cada persona usará el puerto que le corresponda.
+Nota: Claramente cada persona usará el puerto que le corresponda.
 
-   Luego de ingresar contraseña la terminal se quedará así:
+Luego de ingresar contraseña la terminal se quedará así:
 
-   (root_lab) joaco@DESKTOP-20PE4DD:~$ ssh -Y j.penuela@hep-server2.uniandes.edu.co -NL 4950:localhost:4950
-   j.penuela@hep-server2.uniandes.edu.co's password:
+(root_lab) joaco@DESKTOP-20PE4DD:~$ ssh -Y j.penuela@hep-server2.uniandes.edu.co -NL 4950:localhost:4950
+j.penuela@hep-server2.uniandes.edu.co's password:
 
 2. Minimizamos la terminal y abrimos cualquier navegador (yo uso microsoft edge).
 
 3. Ingresamos la url: http://localhost:4950/
 
-   Ese será el jupyterlab de nuestro Docker donde siempre trabajamos. Ahí nos pedirá una contraseña, es la que se definió cuando se creo el Docker (ver Tutorial 0).
+Ese será el jupyterlab de nuestro Docker donde siempre trabajamos. Ahí nos pedirá una contraseña, es la que se definió cuando se creo el Docker (ver Tutorial 0).
 
-4. Ya podemos hacer uso del Docker, por esto los siguientes tutoriales serán escritos en formato .ipynb que podemos abrir desde el Docker.
+Para entender como usar la interfaz de jupyterlab se recomienda ver el siguiente video de 6 minutos: https://www.youtube.com/watch?v=A5YyoCKxEOU&ab_channel=Jupyter%2FIPython 
+
+También se recomienda la lista de youtube: https://youtube.com/playlist?list=PL6cBnnS2SIgrIUumF2WDTDIiH_lODkLGq para el que necesite familiarizarse con Python.
+
+4. Ya podemos hacer uso del Docker. Basta con crear un Notebook con Python 3 y podemos empezar a correr cosas.
+
+Por esta razón los siguientes tutoriales serán escritos en notebooks de jupyter (archivos .ipynb) que podemos abrir desde el Docker.
 
 Nota: Es importante tener en cuenta lo siguiente:
 
