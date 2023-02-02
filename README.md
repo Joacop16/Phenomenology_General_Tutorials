@@ -1,4 +1,4 @@
 # Tutoriales_Generales
 Tutoriales generales sobre la forma de Trabajo actual en el grupo de fenomenología.
 
-Autor: Joaquin Peñuela Parra
+**Autor:** [Joaquin Peñuela Parra](https://github.com/Joacop16).
