@@ -1,6 +1,6 @@
 Tutorial 2: Importar el Framework de trabajo
 
-Autor: Joaquín Peñuela Parra.
+Autor: Joaquin Peñuela Parra.
 
 0. Conectarse al Docker y crear un notebook de Python 3 siguiendo las instrucciones de los tutoriales anteriores.
 

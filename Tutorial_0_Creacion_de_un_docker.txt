@@ -1,6 +1,6 @@
 Tutorial 0: Creación de un Docker
 
-Autor: Joaquín Peñuela Parra.
+Autor: Joaquin Peñuela Parra.
 
 Para este tutorial tomarémos como ejemplo la creación del Docker del profe Andrés Flórez.
 

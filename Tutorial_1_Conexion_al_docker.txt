@@ -1,6 +1,6 @@
 Tutorial 1: Conexión al Docker
 
-Autor: Joaquín Peñuela Parra.
+Autor: Joaquin Peñuela Parra.
 
 En este tutorial escribiré los pasos necesarios para establecer la conexión al docker. Para esto tomaré como ejemplo mi docker Jupyroot_JP con el puerto 4950.
 
