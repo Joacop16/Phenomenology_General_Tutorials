@@ -164,7 +164,7 @@ Así siempre va a haber una terminal corriendo htop, esto evita que el docker se
 
 Luego simplemente minimizamos esa terminal y trabajamos normal dentro con jupyterlab.
 
-13. Instalar git lfs, esto es útil cuando necesitamos que al hacer git clone se descarguen los .csv, para esto simplemente hay que seguír los pasos explicados en http://arfc.github.io/manual/guides/git-lfs
+13. OPCIONAL: Instalar git lfs, esto es útil para trabajar con repositorios de github que contienen archivos pesados, para esto simplemente hay que seguír los pasos explicados en http://arfc.github.io/manual/guides/git-lfs
 
 De ahora en adelante basta con hacer los pasos 9, 10 y 11 para entrar al Docker y trabajar en él. En caso de que el docker colapse debemos hacer lo indicado en los pasos 8 y 12.
 

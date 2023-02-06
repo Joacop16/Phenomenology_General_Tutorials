@@ -9,7 +9,7 @@ Autor: Joaquin Peñuela Parra.
 2. (Temporal) Descargar la versión actualizada del repositorio con el código del Framework de trabajo:
 
 !rm -rf Uniandes_Framework
-!git lfs clone https://github.com/Phenomenology-group-uniandes/Uniandes_Framework.git
+!git clone https://github.com/Phenomenology-group-uniandes/Uniandes_Framework.git
 
 El "!" al inicio de la linea permite ejecutar comandos de consola dentro del Notebook. Luego de esto, Uniandes_Framework estará dentro de la misma carpeta del Notebook.
 
