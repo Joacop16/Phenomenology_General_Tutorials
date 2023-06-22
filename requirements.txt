@@ -1,0 +1,15 @@
+jupyter
+jupyterlab
+metakernel
+calysto-bash
+pandas
+wget
+matplotlib
+jupyterhub
+uproot
+pyppeteer
+ipyparallel
+ipykernel
+nbconvert
+etaprogress
+nbconvert[webpdf]
